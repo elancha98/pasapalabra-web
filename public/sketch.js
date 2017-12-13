@@ -1,7 +1,13 @@
+var rosco;
+
 function setup() {
-  // put setup code here
+  rosco = new Rosco();
+  createCanvas(800, 600);
 }
 
 function draw() {
-  // put drawing code here
+  background(155);
+  push();
+  translate(0,30);
+  rosco.show();
 }
